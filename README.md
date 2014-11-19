@@ -9,7 +9,7 @@ Quick snippet of code that allows you to make items non-purchasable based on the
 Instructions/Usage (WooCommerce 2.2+) :
 You can include this file into your Theme functions file (functions.php) via 
 
-	include 'hide-from-cart.php'
+	include('hide-from-cart.php');
 
 
 However the fastest and easiest way to include this will be to copy and paste the code between the // marks into your functions.php file.  
