@@ -1,12 +1,14 @@
 WooCommerce-Hide-Add-to-Cart
 ============================
 
-Quick snippet of code that allows you to make items non-purchasable based on their category.
+Quick snippet of code that allows you to make items non-purchasable based on their category.  If a product is in a category that matches one from the list ($array_categories) it will be deemed as non-purchasable and can no longer be added to cart.
+
+
+Purpose:  This is a much better alternative to price-disabling than using a special sales price, etc.
 
 
 
-
-Instructions/Usage (WooCommerce 2.2+) :
+Instructions/Usage (WooCommerce 2.2+):
 You can include this file into your Theme functions file (functions.php) via 
 
 	include('hide-from-cart.php');
