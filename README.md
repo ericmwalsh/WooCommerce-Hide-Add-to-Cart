@@ -23,3 +23,22 @@ NOTE: for categories with special characters in their require use of a special m
 In order to remedy this situation we use htmlspecialchars('Sweet & Sour', ENT_QUOTES) which will allow it to evaluate correctly.
 
 *strip_tags method is used because product categories are returned as html href's and not simple strings.
+
+
+============================
+WooCommerce Modify Text for Non-Purchasable Products
+============================
+
+GOAL:  Add some sort of "CALL FOR INQUIRY" text for products that aren't purchasable online (for whatever reason) instead of leaving a blank space where the "Add to Cart" button normally is positioned.
+
+This is a modification of 
+	
+	your-theme-name/woocommerce/single-product/add-to-cart/simple.php
+
+
+Original simple.php before modification filename: original-single-product-page.php
+
+Modified filename: modified-single-product-page.php
+
+
+NOTE: Make sure to modify the "YOUR_DOMAIN" field as well as the text for the call-for-inquiry div.
