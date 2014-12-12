@@ -13,7 +13,7 @@ function select_categories_non_purchasable( $purchasable, $product){
 			$purchasable = false;
 			//This doesn't work yet - Alternative text to display bc non-purchasable products hide the 'Add-to-Cart' button altogether.
 			//Currently it is repeated in 'Related Products' and in a product's category page
-			//echo 'ALTERNATIVE BUTTON TEXT'
+			//echo 'ALTERNATIVE BUTTON TEXT';
 		}
 	}
 	return $purchasable;
